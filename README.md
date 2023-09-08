@@ -1,5 +1,5 @@
 # SQL Used DDL and DML
-create database employeeinfo;
+<pre> pcreate database employeeinfo;
 use employeeinfo;
 drop database sql_demo1;
 show databases;
@@ -18,6 +18,6 @@ alter table empoloyee drop column company;
 truncate table employee;
 alter table employee rename column id to employeid;
 update employee set salary=5000 where employeid=100;
-delete from employee where employeid=101;
+delete from employee where employeid=101;</pre>
 
 
