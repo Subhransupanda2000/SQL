@@ -1,10 +1,10 @@
 # ACID PROPERTIES
 * the term "ACID" refers to a set of properties that guarantee the reliability and consistency of transactions. ACID stands for Atomicity, Consistency, Isolation, and Durability. These properties ensure that database transactions are executed reliably in a way that maintains the integrity of the data. Let's explore each of the ACID properties:
-* Atomicity:
+# Atomicity:
 Atomicity ensures that a transaction is treated as a single, indivisible unit of work. Either all the changes made by a transaction are committed to the database, or none of them are. If any part of the transaction fails, the entire transaction is rolled back to its initial state, ensuring that the database remains in a consistent state.
-* Consistency:
+# Consistency:
 Consistency ensures that a database remains in a valid state before and after the execution of a transaction. The transaction should adhere to the predefined rules and constraints of the database, preserving the integrity of the data. If a transaction violates any integrity constraints, the entire transaction is rolled back.
-* To ensure Consistency in a Database we should follow the below concepts.
+#  To ensure Consistency in a Database we should follow the below concepts.
 * Define and Enforce Integrity Constraints
 * Transaction Management
 * Isolation Levels
@@ -17,7 +17,7 @@ Consistency ensures that a database remains in a valid state before and after th
 * Testing and Quality Assurance
 # Isolation:
 * Isolation ensures that the concurrent execution of multiple transactions does not result in interference or inconsistency. Each transaction should appear as if it is executed in isolation, without being affected by other concurrent transactions. Isolation is typically achieved through mechanisms like locks and isolation levels, preventing transactions from seeing intermediate or uncommitted changes made by other transactions.
-* Problems that arise due to lack of isolation in a database:
+#  Problems that arise due to lack of isolation in a database:
 * Dirty Read
 * Non-Repeatable Read
 * Phantom Read
