@@ -52,6 +52,9 @@ CREATE INDEX idx_department ON employees(department);
 SELECT * FROM employees WHERE department = 'IT';
 
 ```
+```
+C:\Users\subhr\Pictures\Screenshots\Screenshot (508).png
+```
 
 
 
