@@ -24,6 +24,7 @@ In some database systems, indexes can be categorized as clustered or non-cluster
 * The query planner of a database engine uses indexes to optimize query execution plans. It decides whether to perform a full table scan or use indexes based on factors like cardinality, selectivity, and cost estimation.
 * Updating and Deleting Data:
 * When data is updated or deleted, corresponding indexes need to be updated, which can introduce overhead. Bulk operations may benefit from temporarily disabling indexes and rebuilding them afterward.
+
 ```
 -- Create employees table
 CREATE TABLE employees (
@@ -47,6 +48,7 @@ INSERT INTO employees VALUES
 CREATE INDEX idx_email ON employees(department);
 
 ```
+.![database-index-tutorial](https://github.com/Subhransupanda2000/SQL/assets/123824203/23987192-cfb6-4026-8682-935414bc9c45)
 
 
 
