@@ -28,31 +28,26 @@ In some database systems, indexes can be categorized as clustered or non-cluster
 -- Create employees table
 CREATE TABLE employees (
     employee_id INT PRIMARY KEY,
-    name VARCHAR(255),
+    email VARCHAR(255),
     department VARCHAR(100),
     salary DECIMAL(10, 2)
 );
 
 -- Insert sample data
 INSERT INTO employees VALUES
-    (1, 'John Doe', 'IT', 75000.00),
-    (2, 'Jane Smith', 'HR', 60000.00),
-    (3, 'Bob Johnson', 'Finance', 80000.00),
-    (4, 'Alice Brown', 'IT', 70000.00),
-    (5, 'Charlie Davis', 'Sales', 90000.00);
+    (1, 'John@ Doe', 'IT', 75000.00),
+    (2, 'Jane@ Smith', 'HR', 60000.00),
+    (3, 'Bob J@ohnson', 'Finance', 80000.00),
+    (4, 'Alice@ Brown', 'IT', 70000.00),
+    (5, 'Charlie@ Davis', 'Sales', 90000.00);
 
 ```
 ```
--- Create an index on the 'department' column
-CREATE INDEX idx_department ON employees(department);
+-- Create an index on the 'email' column
+CREATE INDEX idx_email ON employees(department);
 
 ```
-```
--- Query without index
-SELECT * FROM employees WHERE department = 'IT';
 
-```
-![Screenshot (508)](https://github.com/Subhransupanda2000/SQL/assets/123824203/391b773e-b1a3-4d4b-aa61-8cc07242dbaa)
 
 
 
