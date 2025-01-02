@@ -12,3 +12,6 @@
 ![Screenshot (977)](https://github.com/user-attachments/assets/488ce5d9-c935-41d4-8006-131aa82e05bb)
 
 ![Screenshot (978)](https://github.com/user-attachments/assets/1d8a97e7-4e6c-4621-8c48-d65d0afa9fcd)
+![Screenshot (979)](https://github.com/user-attachments/assets/b43664d1-8b55-4f22-bbdd-5eb4fed11b13)
+
+[SQL (notes) (1).pdf](https://github.com/user-attachments/files/18289478/SQL.notes.1.pdf)
