@@ -7,3 +7,8 @@
 # Datatypes
 ![Screenshot (975)](https://github.com/user-attachments/assets/f50f0706-6de6-4066-a7e8-58069b216863)
 
+![Screenshot (976)](https://github.com/user-attachments/assets/92f333c8-f00c-4441-9170-8a70f955f566)
+
+![Screenshot (977)](https://github.com/user-attachments/assets/488ce5d9-c935-41d4-8006-131aa82e05bb)
+
+![Screenshot (978)](https://github.com/user-attachments/assets/1d8a97e7-4e6c-4621-8c48-d65d0afa9fcd)
