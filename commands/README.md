@@ -1,3 +1,3 @@
 # Database commands
-* create database databasename
-* drop database databasename
+* create database databasename;
+* drop database databasename;
