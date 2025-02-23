@@ -16,8 +16,16 @@ alter table employee drop no;
 alter table employee modify company varchar (30);
 alter table empoloyee drop column company;
 truncate table employee;
-alter table employee rename column id to employeid;
+alter table employee rename colu*mn id to employeid;
 update employee set salary=5000 where employeid=100;
 delete from employee where employeid=101;</pre>
 
 
+# DCL
+* GRANT ALL PRIVILEGES ON employee.* TO 'user1'@'%';
+* FLUSH PRIVILEGES;
+* SHOW GRANTS FOR 'user1'@'%';
+* GRANT ONLY SPECIFIC COMMANDS(GRANT SELECT, INSERT ON employee.* TO 'user1'@'%';)
+# REVOKE:
+* REVOKE INSERT ON employee.* FROM 'user1'@'%';
+* REMOVE ALL PREVLAGES(REVOKE ALL PRIVILEGES ON employee.* FROM 'user1'@'%';)
